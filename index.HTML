@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="index.CSS">
+</head>
+<body>
+    <div id = "div1">
+    <span id = "title1" class="title">vijjis</span><span id = "title2" class = "title"> veggis</span> 
+    <!-- <button id = "pizza" class="delpizza"> <img src="pexels-esrageziyor-16803393.jpg" alt="error" class="delpizza" ></button> -->
+    </div>
+    <div id="col">
+        <h1 class = "content1">fresh veggie dishes</h1>
+        <h1 class = "content1">that make you irresistible</h1>
+    </div>
+    <div id="content3">
+        <span><h1 id = "dish" class = "menu"> try our new dishes</h1></span>
+        <span><a class="menu" id = "vpizza" href="index.HTML">pizza</a></span>
+        <span><a class="menu" id = "desserts">desserts</a></span>
+        <span><a class="menu" id = "veggiedishes"> other veggie dishes</a></span> 
+       
+
+    </div>
+    <div class = "menu">
+        <h1 id = "login"> login</h1>
+        <input placeholder="enter your name" id = "ph">
+        <h1 id = "hi"></h1>
+        <button onclick="m()" id = "button">ok</button>
+        <script>
+            function m()
+            {
+                let a = document.getElementById('ph');
+                let b = a.value;
+                let c = document.getElementById('hi');
+                if(b){
+                    c.innerHTML = '<h1> welcome '+b+'</h1>';
+                }
+                else{
+                    c.innerHTML = '<h1> please enter your name </h1>';
+                }
+            }
+        </script>
+
+    </div>
+   
+    
+    
+    
+
+    
+</body>
+</html>
